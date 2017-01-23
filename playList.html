@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play-List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="playList.css">
+  
+</head>
+<body>
+   
+    <div class="izquierda container-fluid">
+	    <div class="primer row">
+	    	<div class="margen col-md-3"></div>
+	    	<div class="buscador col-md-3">
+	    	<div class="rowMargen row"></div>
+			    
+			    <div class="search-form">
+			      	<input type="text" class="write" placeholder="Search Spotify..." autofocus>
+			      	<button id="search"> <i class="glyphicon glyphicon-search" tabindex="-1" type="submit"></i></button> 
+			    </div>
+
+			    <div class="header">
+			        <div class="btn-play disabled"></div>
+			            <div class="metadata">
+					            <p class="title">Hunger of The Pine</p>
+					            <p class="author"><a href="#" class="artist-info">alt-J</a></p>
+				            <div class="seekbar">
+				              	<progress id="progre" value="0" max="30"></progress>
+			          		</div>
+			            </div>
+			    </div>
+			      
+				    <div class="cover">
+				        <a class="artist-info" href="#">
+				          <img class="imagen" src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43">
+				        </a>
+				    </div>
+
+			        <audio class="songsAudio" src="https://p.scdn.co/mp3-preview/8e9c5ffdc38e91659bfe8b6bd44650dfc25a3d31"></audio>
+			    
+			</div>
+			   
+		   	<div class="col-md-6">
+	    	   	<div class="segundo">
+	    	   		<div class="botones">
+	        		 	<button class="show">My list</button>
+	    	   	   		<button class="clear" onclick="location.reload()">Clear</button>
+	    	   	   	</div>
+	    	   		<div class="lista" >
+	    	   			<ul class="listaCan"></ul>
+	        			<a class="music" href="#"><ul class="myList"></ul></a>
+	        		</div>   		
+	        	</div>
+	        </div>
+	    </div> 	
+	</div>	
+	        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	        <script type="text/javascript" src="playList.js"></script>
+</body> 
+</html>

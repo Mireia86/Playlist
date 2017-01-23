@@ -1,0 +1,83 @@
+html {
+	height: 100%;
+}
+body {
+	background: #E4F0F0;
+	height: 100%;
+}
+div.container-fluid{
+	height: 100%;
+}
+div.row{
+	height: 100%;
+}
+div.target{
+	background-image: url("musica.png");
+	background-position: center; 
+	background-repeat: no-repeat;
+	margin:5%;
+	border-radius: 25px;
+	border: 3px solid #6C1D80;
+	height: 300px;
+	width: 40%;
+}
+img.imagen{
+	height: 25px;
+	width: 25px;
+	margin: -5%;
+}
+div.title{
+
+}
+div.contenido{
+	margin: 17% 10% 10% 20%;
+}
+button.login{
+
+	height: 55px;
+	width: 90px;
+	margin-top: 3%;
+	margin-left: 10%;	
+	background: #d53bed;
+	background-image: linear-gradient(to bottom, #d53bed, #782294);
+	border-radius: 39px;
+	box-shadow: 3px 2px 7px #666666;
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 15px 10px 15px;
+	border: solid #8c1f7c 3px;
+	text-decoration: none;
+}
+button.login:hover {
+    background: #fc3ce6;
+    background-image: linear-gradient(to bottom, #fc3ce6, #bd34d9);
+    text-decoration: none;
+    border-color: #D661A5;
+}
+input.name{
+    width: 60%;	
+    margin-top: -2%;
+    margin-right: 5%;
+    background-image: linear-gradient(to bottom, #FDECFE, #FFF);
+    border-radius: 39px;
+    font-family: Georgia;
+    color: #000;
+    font-size: 20px;
+    padding: 7px 0px 7px 20px;
+    border: solid #6C1D80 3px;
+    text-decoration: none;
+}
+input.password{
+    width: 60%;
+    margin-top: 2%;
+    margin-right: 5%;
+    background-image: linear-gradient(to bottom, #FDECFE, #FFF);
+    border-radius: 39px;
+    font-family: Georgia;
+    color: #000;
+    font-size: 20px;
+    padding: 7px 0px 7px 20px;
+    border: solid #6C1D80 3px;
+    text-decoration: none;
+}
